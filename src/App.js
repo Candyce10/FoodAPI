@@ -8,6 +8,7 @@ import Categories from "./pages/AllCategories"
 import CategoryPage from "./pages/CategoryPage"
 import { Routes , Route, useNavigate } from "react-router-dom"
 
+
 function App() {
 
   let navigate = useNavigate()
