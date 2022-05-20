@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.title{
+    font-family: 'Bowlby One', cursive;
+    font-size: 5.2vw;
+    text-align: left;
+    letter-spacing: .1vw;
+    padding: 2vw;
+    color: white;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 0px 0px 9px rgba(0,0,0,0.09);
+    font-weight: 100;
+    
+}
+
+.body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+
+.nav{
+    display: inline-flex;
+    align-items: center;
+    background-color: #d54215;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 10%);
+    width: 100%;
+    height: 4vw;
+    margin: 0 0 3vw 0;
+    padding: 2vw 0;
+    text-align: center;
+}
+.nav a{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration:  none;
+    padding: .1vw;
+    display:flex;
+    justify-content: center;
+    margin-left: 4vw;
+    letter-spacing: .1vw;
+    white-space: no-wrap;
+}
+.navTitle{
+    color: white;
+    font-family: 'Bowlby One', cursive;
+    padding: .1vw 3vw .1vw .4vw;
+    display:flex;
+    justify-content: center;
+    letter-spacing: .1vw;
+    font-size: 2vw;
+    
+}
+
+.nav a:hover{
+    color: lightgray
+}
+
+.search{
+    display: inline-flex;
+    margin: 1vw 0 1vw 20vw;
+    min-width: 15vh;
+}
+
+.searchBar{
+    width: 20vw;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    outline: none;
+    padding: .3em;
+    display: inline-flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    height: 3vw;
+    border: 0.1vw solid #252425;
+
+}
+
+.searchBox{
+    width: 100%;
+    max-width: 93.333vw;
+    display: flex;
+    align-items: center;
+    border-radius: 8vw ;
+    padding: 1.5vw 1.667vw;
+}
+
+.searchButton{
+    padding: 0 1vw;
+    border: 0.1vw solid #252425;
+    background-color: #d54215;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    transition: background-color 150ms;
+    height: 3vw;
+    font-size: 1.1rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .1vw;
+}
+
+.searchButton:hover{
+    cursor: pointer;
+    color:#d54215;
+    background-color: white;
+}
+
+.test{
+    padding: 1vw;
+    border-radius: 11vw ;
+}
+
+.test2{
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 1vw;
+    justify-content: center;
+    margin-left: 4vw;
+    
+}
+
+.searchResults{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    width: 20vw;
+    box-shadow: 0vw 1.333vw 1.733vw -0.933vw #000000, 0.667vw 0.667vw 2vw 0.667vw rgba(0,0,0,0.12);
+    background-color: white;
+    text-align: center;
+    height: auto
+}
+
+.aLink{
+    text-decoration: none;
+}
+
+.searchContainer{
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.searchImage{
+    position: relative;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.searchMeal{
+    display: grid;
+    padding: .5vw 1.333vw;
+    grid-row-gap: 2vw;
+    letter-spacing: .2vw;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.searchMealCat{
+    padding-bottom: .5vw;
+    color: #6f6f6f;
+    letter-spacing: .1vw;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.noResultText{
+    color: white
+}

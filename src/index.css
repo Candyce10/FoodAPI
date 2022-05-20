@@ -1,0 +1,16 @@
+body{
+  background-color: #f5f6ea;
+  background:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url('https://images.creativemarket.com/0.1.0/ps/6463322/1131/750/m1/fpnw/wm0/screenshot_2-.png?1559133476&s=1ffcef3cadc30f3d3b37520b3c3b13d2');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+
+.homeText{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 5vw;
+  letter-spacing: .1vw;
+}
