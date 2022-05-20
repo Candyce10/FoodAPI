@@ -9,7 +9,12 @@ Feed Me gives you the option to search for meal ideas by name or category, or if
 
 **Technologies Used:** 
 HTML, CSS, React, State and Hooks, API Fetch
-API used: https://www.themealdb.com/api.php
+API used: 
+  https://www.themealdb.com/api.php (Hosting Site)
+  www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata
+  www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata
+  www.themealdb.com/api/json/v1/1/filter.php?c=Seafood
+
 
 **Getting Started/Installation Instructions:**
 Users may start by using the navigation bar to input a query in the search bar for a specific meal, can click on the randomized meal, or search a meal by the categories given.
