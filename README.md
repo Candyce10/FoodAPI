@@ -8,8 +8,8 @@ Feed Me gives you the option to search for meal ideas by name or category, or if
 ![image](https://user-images.githubusercontent.com/101231657/169556408-97d09970-09e5-4544-beac-88224c5e6e2e.png)
 
 **Technologies Used:** 
-
 HTML, CSS, React, State and Hooks, API Fetch
+API used: https://www.themealdb.com/api.php
 
 **Getting Started/Installation Instructions:**
 Users may start by using the navigation bar to input a query in the search bar for a specific meal, can click on the randomized meal, or search a meal by the categories given.
