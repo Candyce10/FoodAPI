@@ -31,9 +31,11 @@ function CategoryPage() {
                 <div class="test2">
                   <div class="test">
                     <div class="searchResults">
+                    <Link className="aLink" to={`/recipes/${meals.idMeal}`}>   
                   <img class="searchImage" src ={meals.strMealThumb} alt ={meals.strMeal} />
                   <p class= "searchMeal"><h4>{meals.strMeal}</h4></p>
                   <p class= "searchMealCat"><h5>{meals.strCategory}</h5></p>
+                  </Link>
                   </div>
                   </div>
                 </div>

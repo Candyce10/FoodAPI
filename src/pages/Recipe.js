@@ -1,12 +1,33 @@
+import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom"
 import './pages.css';
 
 
 function Recipe(props){
     let {index} = useParams()
-    let recipe = props.recipes[index]
-    console.log(props.recipes)
-    return(
+    // let recipe = props.recipes.filter((recipe) => recipe.idMeal === index )
+    // console.log(recipe)
+    // recipe=recipe[0]
+    const[recipe, setRecipe] = useState(null)
+   useEffect(() =>{
+
+        fetchData();
+    }, [])
+  function fetchData(){ 
+let URL = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${index}`
+    fetch(URL)
+      .then((res)=> res.json())
+      .then((res) => {
+        setRecipe(res.meals[0]) 
+       console.log(res)
+      })
+    }
+
+
+    if (!recipe){
+        <p>loading
+    </p>} else
+    {return(
         <>
        
             <div class="mealTitle">
@@ -47,7 +68,7 @@ function Recipe(props){
             </div>
             </>
        
-    )
+    )}
 }
 
 
